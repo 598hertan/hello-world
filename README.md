@@ -3,7 +3,7 @@ hello-world
 
 This is an exercise to get me started with learning GitHub.
 
-My favorite color is blue.
+My favorite color is green.
 
 I have been experimenting with python since 2018.
 
