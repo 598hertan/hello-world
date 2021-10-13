@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://media-exp1.licdn.com/dms/image/C5603AQGRFVIuGV0QyA/profile-displayphoto-shrink_200_200/0/1604348254650?e=1639612800&v=beta&t=zfsgfPIpl_IW3uxeR9tqdAMKcOotiSTNpdtt_nlO8Xw" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>Products</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PRODUCTS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> James Hertan.</h1>
+    <p>A Product Manager with an extensive background in Business Systems Analysis and Design.</p>
+    <img src="\assets\Profile-James-Hertan.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">James J. Hertan</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Diving into ambiguous environments where alignment is needed across various business groups and technical teams is a space that I enjoy working in. I am looking for a role that focuses on the buildout of a new product or service where its initial implementation and growth requires immediate attention, support, and accountability.</p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Roadmap Building</p>
+    <p class="w3-wide">Product Ideation and Minimum Viable Product Recommendations</p>
+    <p class="w3-wide">Clear Communications</p>
+    <p class="w3-wide">Requirements Gathering</p>
+    <p class="w3-wide">SAFe & Agile Best Practices</p>
+    <p class="w3-wide">Python3 for data modeling</p>
+    </div><br>
+    
+    <!--<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1</span><br>
+        Startup
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+-->
+    <a href="\assets\James Hertan Resume 2021 (GitHub Pages).pdf" download>
+        <button class="w3-button w3-light-grey w3-padding-large w3-section"><i class="fa fa-download"></i> Download Resume</button>
+    </a>
+    
+    <!-- Grid for pricing tables
+    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+    </div> -->
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Roles</h3>  
+    <a href="https://apps.apple.com/us/app/jeppesen-aviator/id1135983832" target="_blank"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFf3yCNHRF9XQ/company-logo_200_200/0/1557946137862?e=1642032000&v=beta&t=qLzHuEm1UFEuCGxkKN4Lg0HOSYkjjSC7WaClqtZXaJk" alt="Sila SG" class="w3-left w3-circle w3-margin-right" style="width:80px"></a>
+    <p><span class="w3-large w3-margin-right">Sila Solutions Group</span> <br>Senior Consultant for The Boeing Company as Product Manager, Flight Deck Solutions</p>
+    <p>Supported the product launch & subsequent releases of an iOS and Windows mobile app named Jeppesen Aviator.</p><br>
+    
+    <img src="https://media-exp1.licdn.com/dms/image/C560BAQGBnChHHLwG8g/company-logo_200_200/0/1565125789561?e=1642032000&v=beta&t=rxwHzvcOXfoqmFt-EF8B8J1_a1Ju-X9pK4UBZzaR-kM" alt="Nordstrom Inc." class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Nordstrom Inc.</span><br>Technology Business Analyst, Loyalty Marketing</p>
+    <p>Supported the launch of two loyalty marketing programs: Beauty Rewards and Debut Rewards.</p><br>
+
+    <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFK8-bFDp8ptA/company-logo_200_200/0/1519856039390?e=1642032000&v=beta&t=cUfoGa3FVEZXx0Keo21H0FyoSc9CtGKD0C8ZNkXKFCY" alt="JCDecaux NA" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">JCDecaux North America</span><br>Application Development & Support</p>
+    <p>Project lead for the implementation and launch of a proprietary web-based digital management solution which allowed users to manage the schedules for digital content displayed to JCDecaux’s network of digital billboards spanning 300+ screens across all major US airports.</p><br>
+  <!-- End About Section -->
+
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Product Images</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third">
+        <img src="https://is3-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/93/80/c1/9380c1ae-62c7-16aa-3d68-314cddefab9e/789957b9-337f-4567-badf-caa0554a966a_2.PNG/313x0w.webp" style="width:100%">
+      
+        </div>
+
+      <div class="w3-third">
+        <img src="https://is5-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/94/e4/66/94e466f5-4cc8-39d3-31a6-b742b357f3da/bec0f453-2bea-4d22-a162-5ba2aa2c6474_3.PNG/313x0w.webp" style="width:100%">
+      
+      </div>
+
+      <div class="w3-third">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/ea/06/49/ea0649ef-6331-ce66-06e0-db636042dd5d/9e72c5d2-4c34-4862-88ce-31bd3779fcc7_6.PNG/313x0w.webp" style="width:100%">
+      </div>
+      
+      <div class="w3-third">
+        <img src="https://n.nordstrommedia.com/id/30362b3f-cded-4915-a639-a788428d1147.png" style="width:100%">
+      </div>
+
+      <div class="w3-twothird">
+        <img src="https://d3hobg6e0lwaa4.cloudfront.net/wwwjcdecauxusa/public/styles/jcd_our_presence_map_image/1056/public/assets/image/2019/03/4_dfw_terminal_a_ivisions.jpg" style="width:100%">
+      </div>
+
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Seattle, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1 908-437-8265</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: hertanj[at]gmail[dot]com</p>
+    </div><br>
+
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://www.linkedin.com/in/hertanj/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
