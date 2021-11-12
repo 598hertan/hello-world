@@ -1,7 +1,7 @@
 hello-world
 ===========
 
-This is a place where I exercise git commands.
+This is a place where I experiment with git commands.
 
 My favorite color is blue.
 
