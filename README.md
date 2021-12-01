@@ -1,8 +1,8 @@
 hello-world
 ===========
 
-This is an exercise to  help me get started with Github.
+This is a place where I experiment with git commands.
 
-My favorite color is green.
+My favorite color is blue.
 
 I have been experimenting with python since 2018. I am currently studying OOP concepts.
