@@ -1,8 +1,6 @@
 hello-world
 ===========
 
-This is a place where I experiment with git commands.
+I use this repo for to host a simple website that showcases my resume.
 
-My favorite color is blue.
-
-I have been experimenting with python since 2018. I am currently studying OOP concepts.
+I use python to build system tools to evaluate data models.
