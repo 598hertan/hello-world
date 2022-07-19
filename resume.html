@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+  <head>
 <title>James Hertan Resume</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,6 +17,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 </style>
+
+</head>
 <body class="w3-black">
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
@@ -63,14 +66,16 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">James J. Hertan</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>I am looking for a role that focuses on a product or service where its support and growth requires immediate attention and accountability. I am comfortable working in dynamic environments where communication is constantly needed across various business groups and technical teams.</p>
+    <p class="w3-text-light-grey">I am looking for a role that focuses on a product or service where its support and growth requires immediate attention and accountability. I am comfortable working in dynamic environments where communication is constantly needed across various business groups and technical teams.</p>
+
+    
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Roadmap Building</p>
-    <p class="w3-wide">Product Ideation and Minimum Viable Product Recommendations</p>
-    <p class="w3-wide">Clear Communications</p>
-    <p class="w3-wide">Requirements Gathering</p>
-    <p class="w3-wide">SAFe & Agile Best Practices</p>
-    <p class="w3-wide">Python for data modeling & scripting</p>
+    <p class="w3-wide w3-text-light-grey">Roadmap Building</p>
+    <p class="w3-wide w3-text-light-grey">Product Ideation and Minimum Viable Product Recommendations</p>
+    <p class="w3-wide w3-text-light-grey">Clear Communications</p>
+    <p class="w3-wide w3-text-light-grey">Requirements Gathering</p>
+    <p class="w3-wide w3-text-light-grey">SAFe & Agile Best Practices</p>
+    <p class="w3-wide w3-text-light-grey">Python for data modeling & scripting</p>
     <br>
     
     <!-- Resume Button -->
@@ -78,11 +83,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         <button class="w3-button w3-light-grey w3-padding-large w3-section"><i class="fa fa-download"></i> Download Resume</button>
     </a>
     <!-- END Resume Button -->
-    </div><br>
-    
+    </div>    
+    <br>
+    <div class="education"></div>
+    <br>
+
     <!-- Roles -->
     <div class="w3-content">
-    <h3 class="w3-padding-24 w3-text-light-grey">My Roles</h3>  
+    <h3 class="w3-padding-24">My Roles</h3>  
     
     <p class="w3-wide">2014 - Present  |  Seattle, WA</p>
     <a href="https://apps.apple.com/us/app/jeppesen-aviator/id1135983832" target="_blank"><img src="assets\seela-logo.jpeg" alt="Sila SG" class="w3-left w3-circle w3-margin-right" style="width:80px"></a>
@@ -104,6 +112,38 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
     </div>  <!--End Roles DIV-->
   <!-- End About Section -->  
+
+
+  <script defer>
+    const educationElemt = document.querySelector(".education");
+
+    const edu = document.createElement("div");
+    edu.classList.add("w3-content", "w3-justify","w3-padding-64");
+    
+    const headerElem = document.createElement("h3");
+    headerElem.classList.add("ws-padding-24", "w3-text-light-grey");
+    headerElem.innerHTML = "Education";
+    edu.append(headerElem);
+      
+    const logoElem = document.createElement('a');
+    logoElem.href = "https://www.lafayette.edu/";
+    logoElem.target = "_blank";
+    
+    const logoImgElem = document.createElement('img');
+    logoImgElem.src = "assets\\lafLogo.png";
+    logoImgElem.alt = "Lafayette College Logo";
+    logoImgElem.classList.add("w3-left", "w3-circle", "w3-margin-right");
+    logoImgElem.style = "width:80px";
+    logoElem.append(logoImgElem);
+    edu.append(logoElem);
+
+    const educationInfo = document.createElement("p");
+    educationInfo.innerHTML = `<span class="w3-large w3-margin-right">Lafayette College</span></br>Bachelor of Arts in Government and Law, Class of 2002`;
+    edu.append(educationInfo);
+    
+    educationElemt.append(edu)
+  
+  </script>
 
   <!-- Portfolio Section -->
   <div class="w3-padding-64 w3-content" id="products">
