@@ -1,0 +1,87 @@
+
+/*style class "info" so it is a focal point at the top of the page */
+.info {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+/*style class "infoMeta" so its not as bold as class "info" and excludes newlines */
+.infoMeta {
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    white-space: nowrap;
+}
+
+
+/*style class "title" */
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+/*style class expCompany and include a border*/
+.expCompany {
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+/*add a style class expLogo so it shows to the left of class expCompany */
+.expLogo {
+    float: left;
+    margin: 5px 10px 10px 5px;
+}
+
+/*style class expCompanyLocation so its a secondary title of class Title */
+.expCompanyLocation {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 10px 10px 5px;
+}
+/*style class expCompanyTitle so its bold and underlined and centered */
+.expCompanyTitle {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-decoration: none;
+    text-align: left;
+}
+
+/*style class expTitle */
+.expTitle {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.expDate {
+    font-size: 15px;
+    font-weight: none;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+
+/*style class expContent and its always below div class "expLogo"*/
+.expContent {
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    clear: left;
+}
